@@ -1,0 +1,49 @@
+---
+title: "milestone-2"
+author: "Jackson Kehoe"
+date: "9/20/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+[Organ Donations and Transplants](https://shafi-rubbani.shinyapps.io/donations_and_transplants/)
+
+Pros
+
+- The interactive graph, as well as the other interactive tabs equipped with dropdown menus, are fun to use and a great way to visually explore the data set. 
+
+- Being able to see multiple countries side by side, both by organ type and transplant type, is so cool!
+
+- I like the idea of representing the countries with most donations in a bar chart. But I think it would have been cool to also see a chart which shows donation and transplant rates for the top 10 countries -- I feel this would be a super informative graphic! 
+
+Cons
+
+- I really love all of the graphics. Especially the colors :) I think the tables shown here (in "Summary") would have been even more showstopping if they had been transformed into graphics, or left as is but with the data indicating "change in donation/transplant rate over time" incorporated into a chart, perhaps with two side-by-side bars indicating the amount from each year in which data was recorded.
+
+- Additionally, all of the mention of increases causes me to wonder... were there countries which steadily decreased over time? And furthermore... should I expect this to be represented in the project, or just explore the data myself?
+
+- scaling in the "by country" interactive: some countries have so few transplants they do not appear when plotted with other countries that have many more. 
+
+- Additionally, it seems data for some of the countries listed is not available (in the "Transplant Proportions" tab, countries such as Ukraine -- with the error message "An error has occurred. Check your logs or contact the app author for clarification."). It is unclear to me whether this is the result of data being removed from a database, or lack of steps which would have eliminated these countries form the dropdown menu. 
+
+
+
+[Ghanian Cacao Farmers](https://molly-leavens.shinyapps.io/Ghanian_Cacao/)
+
+Pros
+
+- The map graphic is great to look at and work with on the larger scales. It is easy to interpret where the surveys are coming from, and I think it's a great way to portray what otherwise could have been just a table with geographic data.
+
+- The categories in the summary datatable are interesting, and I feel they bring me a step closer to a general understanding of how the farming economy functions at the individual level. 
+
+
+Cons
+
+- The map graphic has points in the middle of the ocean, and at a very zoomed-in perspective, the points appear distributed in a way that does not make much sense to me without a map scale. 
+
+- The univariate plots look nice, but the arranging of these two categories together is somewhat confusing to me. I'd assume that "Number of children" relates to the number of children per household, and the larger households consist of extended family members. I think it would be interesting and clarifying to see the intersection of these two variables in a table. (Do higher population households have more children or less?)
+
+- The summary datatable is somewhat confusing, by leaving out the years I am left to wonder what "Wave 1" "Wave 2" and ultimately "Change" really represent. 
